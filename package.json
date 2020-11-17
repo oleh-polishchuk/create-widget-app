@@ -1,0 +1,27 @@
+{
+  "name": "create-widget-app",
+  "version": "1.0.0",
+  "description": "The create-widget-app command line tool makes it easy to generate a configured WP Elementor widget.",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "create-widget-app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-polishchuk/create-widget-app.git"
+  },
+  "keywords": [
+    "elementor",
+    "widget"
+  ],
+  "author": "oleh.polishchuk.ck@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleh-polishchuk/create-widget-app/issues"
+  },
+  "homepage": "https://github.com/oleh-polishchuk/create-widget-app#readme",
+  "dependencies": {
+    "yargs": "16.1.1"
+  }
+}
