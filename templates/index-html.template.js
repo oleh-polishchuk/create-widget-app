@@ -1,4 +1,4 @@
-module.exports = (options = {}) => {
+module.exports = ({ className }) => {
     return `\
 <html>
 <head>
@@ -9,10 +9,10 @@ module.exports = (options = {}) => {
 <body>
 
   <style>
-    .lb-widget {}
+    .${className} {}
   </style>
   
-  <div class="lb-widget" data-selector="lb-widget">
+  <div class="${className}" data-selector="${className}">
     Widget works!
   </div>
 
@@ -35,7 +35,7 @@ module.exports = (options = {}) => {
          // your code here...
     }
     
-    function log(...message) { console.log('[lb-widget]', ...message); }
+    function log(...message) { console.log('[${className}]', ...message); }
   </script>
 
 </body>
