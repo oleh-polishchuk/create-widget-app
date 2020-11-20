@@ -1,6 +1,6 @@
 {
   "name": "create-widget-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The create-widget-app command line tool makes it easy to generate a configured WP Elementor widget.",
   "main": "index.js",
   "scripts": {},
