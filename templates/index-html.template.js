@@ -1,5 +1,8 @@
-module.exports = ({ className }) => {
-    return `\
+const baseTemplate = require('./base.template');
+
+module.exports = Object.assign({
+    getFileName: () => "index.html",
+    template: ({ className }) => `\
 <html>
 <head>
   <meta charset="utf-8">
@@ -41,4 +44,4 @@ module.exports = ({ className }) => {
 </body>
 </html>
 `
-};
+}, baseTemplate);
